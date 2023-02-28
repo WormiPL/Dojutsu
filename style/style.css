@@ -47,20 +47,29 @@ a:hover{
     background: #FA8128;
 }
 .text{
-  text-align: center;
+  text-align: justify;
   color: white;
+  font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 800px;
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px;
   border: 2px solid black;
   border-radius: 15px;
+  position: absolute;
+  top: 185px;
+  left: 500px;
 }
 h3{
   text-align: center;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  top: 135px;
+  left: 900px;
+  
 }
 @media screen and (max-width: 900px){
  .mob {
@@ -68,4 +77,15 @@ h3{
   left: 50%;
   transform: translateX(-50%);
  }
+}
+.article{
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 800px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 185px;
+  left: 500px;
 }
